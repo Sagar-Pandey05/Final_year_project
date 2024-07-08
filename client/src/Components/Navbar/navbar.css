@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav1{
+    height: 12vh;
+    width: 100vw;
+}
+
+.image{
+    height: 10vh;
+    width: 13vw;
+    margin-top: 5px;
+    border: 2px solid #fff;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 4vw;
+}
+
+.elem{
+    display: flex;
+    margin-left: 3vw;
+}
+.elem p{
+    padding: 0 1vw;
+    font-weight: 600;
+}
+
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3vw;
+}
+
+.darkbtn{
+    background-color: rgb(87, 87, 247);
+    color: #fff;
+    border-radius: 5px;
+    padding: 1vh 1.5vw;
+    margin: 0 20px;
+    font-weight: 400;
+
+}
+
+.lightbtn{
+    background-color: #fff;
+    color: blue;
+    border: 2px solid rgb(87, 87, 247);
+    border-radius: 5px;
+    padding: 0.7vh 1.7vw;
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.search{
+    border: 2px solid #fff;
+    background-color: #fff;
+    padding: 0.5vh 0;
+    border-radius: 5px;
+}
+.search input{
+    outline: none;
+}
+
+.search i{
+    font-size: 18px;
+    margin-left: 0.5vw;
+    margin-right: 0.2vw;
+}
+.text p{
+    font-size: medium;
+    font-weight: 500;
+}
